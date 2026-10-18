@@ -1,0 +1,407 @@
+{
+  "dataset_facts": {
+    "strain-only (D1)": {
+      "n": 3838,
+      "duration_s": 767.6,
+      "fs_Hz": 5.0,
+      "lambda0_nm": 1524.60998,
+      "lambda_min_nm": 1523.93061,
+      "lambda_max_nm": 1524.75507,
+      "dl_range_pm": 824.46,
+      "dl_final_pm": -561.34,
+      "active_channels": [
+        "CH1"
+      ],
+      "noise_pm": 1.58,
+      "smallest_wl_increment_pm": 0.01
+    },
+    "temperature-only (D2)": {
+      "n": 3059,
+      "duration_s": 611.8,
+      "fs_Hz": 5.0,
+      "lambda0_nm": 1523.66538,
+      "lambda_min_nm": 1523.6582,
+      "lambda_max_nm": 1523.8013,
+      "dl_range_pm": 143.1,
+      "dl_final_pm": 62.37,
+      "active_channels": [
+        "CH1"
+      ],
+      "noise_pm": 1.77,
+      "smallest_wl_increment_pm": 0.01
+    },
+    "combined (D3)": {
+      "n": 9063,
+      "duration_s": 1812.6,
+      "fs_Hz": 5.0,
+      "lambda0_nm": 1524.22429,
+      "lambda_min_nm": 1523.30041,
+      "lambda_max_nm": 1524.51299,
+      "dl_range_pm": 1212.58,
+      "dl_final_pm": -870.16,
+      "active_channels": [
+        "CH1"
+      ],
+      "noise_pm": 1.38,
+      "smallest_wl_increment_pm": 0.01
+    }
+  },
+  "structure": {
+    "strain-only (D1)": {
+      "plateaus": [
+        {
+          "t_start": 0.2,
+          "t_end": 133.4,
+          "mean_pm": -2.0,
+          "std_pm": 1.83,
+          "slope_pm_per_100s": -2.39
+        },
+        {
+          "t_start": 133.6,
+          "t_end": 264.0,
+          "mean_pm": -131.6,
+          "std_pm": 43.66,
+          "slope_pm_per_100s": 53.53
+        },
+        {
+          "t_start": 264.2,
+          "t_end": 390.8,
+          "mean_pm": -281.0,
+          "std_pm": 1.78,
+          "slope_pm_per_100s": -3.56
+        },
+        {
+          "t_start": 391.0,
+          "t_end": 517.2,
+          "mean_pm": -444.6,
+          "std_pm": 2.84,
+          "slope_pm_per_100s": 5.67
+        },
+        {
+          "t_start": 517.4,
+          "t_end": 767.6,
+          "mean_pm": -560.4,
+          "std_pm": 1.32,
+          "slope_pm_per_100s": -0.15
+        }
+      ],
+      "step_sizes_pm": [
+        -129.6,
+        -149.4,
+        -163.6,
+        -115.8
+      ],
+      "implied_step_strain_microstrain_if_KE_1p2": [
+        -108.0,
+        -125.0,
+        -136.0,
+        -96.0
+      ],
+      "transient_samples_gt20pm": 82,
+      "transient_windows_s": [
+        [
+          125.6,
+          131.2
+        ],
+        [
+          248.8,
+          265.0
+        ],
+        [
+          386.8,
+          394.0
+        ],
+        [
+          515.6,
+          518.6
+        ]
+      ],
+      "max_transient_excursion_pm": 205.5
+    },
+    "combined (D3)": {
+      "plateaus": [
+        {
+          "t_start": 0.2,
+          "t_end": 123.2,
+          "mean_pm": -7.4,
+          "std_pm": 4.1,
+          "slope_pm_per_100s": 8.01
+        },
+        {
+          "t_start": 123.4,
+          "t_end": 245.4,
+          "mean_pm": -171.5,
+          "std_pm": 4.59,
+          "slope_pm_per_100s": 13.77
+        },
+        {
+          "t_start": 245.6,
+          "t_end": 385.2,
+          "mean_pm": -354.2,
+          "std_pm": 57.1,
+          "slope_pm_per_100s": 69.27
+        },
+        {
+          "t_start": 385.4,
+          "t_end": 519.8,
+          "mean_pm": -525.8,
+          "std_pm": 5.85,
+          "slope_pm_per_100s": 7.61
+        },
+        {
+          "t_start": 520.0,
+          "t_end": 638.4,
+          "mean_pm": -704.3,
+          "std_pm": 1.86,
+          "slope_pm_per_100s": 3.5
+        },
+        {
+          "t_start": 638.6,
+          "t_end": 1812.6,
+          "mean_pm": -882.7,
+          "std_pm": 9.36,
+          "slope_pm_per_100s": 2.5
+        }
+      ],
+      "step_sizes_pm": [
+        -164.1,
+        -182.7,
+        -171.6,
+        -178.5,
+        -178.4
+      ],
+      "implied_step_strain_microstrain_if_KE_1p2": [
+        -137.0,
+        -152.0,
+        -143.0,
+        -149.0,
+        -149.0
+      ],
+      "transient_samples_gt20pm": 82,
+      "transient_windows_s": [
+        [
+          116.2,
+          121.8
+        ],
+        [
+          241.4,
+          245.2
+        ],
+        [
+          371.4,
+          381.8
+        ],
+        [
+          511.4,
+          516.2
+        ],
+        [
+          638.2,
+          640.8
+        ]
+      ],
+      "max_transient_excursion_pm": 200.0
+    },
+    "temperature-only (D2)": {
+      "start_pm": 0.1,
+      "end_pm": 61.4,
+      "implied_dT_C_if_KT_10": 6.13,
+      "implied_dT_C_if_KT_23_bonded_on_steel": 2.67,
+      "transient_samples_gt20pm": 9,
+      "transient_windows_s": [
+        [
+          458.4,
+          461.8
+        ]
+      ],
+      "max_transient_excursion_pm": 53.4
+    }
+  },
+  "leakage_experiments": {
+    "E1_original_inputs_[Time,dl]_random_split": {
+      "MAE_pm": 1.979,
+      "RMSE_pm": 2.66,
+      "R2": 0.9999
+    },
+    "E2_identity_y_hat_equals_input_dl_(no_model)": {
+      "MAE_pm": 0.0,
+      "RMSE_pm": 0.0,
+      "R2": 1.0
+    },
+    "E3_Time_only_random_split": {
+      "MAE_pm": 120.332,
+      "RMSE_pm": 145.433,
+      "R2": 0.7605
+    },
+    "E4_Time_only_chronological_split_(last_20pct)": {
+      "MAE_pm": 47.562,
+      "RMSE_pm": 49.087,
+      "R2": -403.6076
+    },
+    "E4b_naive_hold_last_training_value": {
+      "MAE_pm": 3.609,
+      "RMSE_pm": 4.16,
+      "R2": -1.9064
+    },
+    "E1c_original_inputs_chronological_split": {
+      "MAE_pm": 37.039,
+      "RMSE_pm": 41.158,
+      "R2": -283.4525
+    },
+    "E3b_1NN_in_time_random_split": {
+      "MAE_pm": 2.517,
+      "RMSE_pm": 9.011,
+      "R2": 0.9991
+    },
+    "E3b_1NN_in_time_chronological_split": {
+      "MAE_pm": 3.609,
+      "RMSE_pm": 4.16,
+      "R2": -1.9064
+    }
+  },
+  "E5_seed_dependence": [
+    {
+      "seed": 0,
+      "MAE_pm": 1.979,
+      "RMSE_pm": 2.66,
+      "R2": 0.9999,
+      "strain_range_microstrain": [
+        -368.2,
+        -0.0
+      ],
+      "temp_range_C": [
+        -58.0,
+        34.4
+      ],
+      "strain_share_of_dl_variance": 0.191,
+      "temp_share_of_dl_variance": 0.344
+    },
+    {
+      "seed": 1,
+      "MAE_pm": 0.811,
+      "RMSE_pm": 1.15,
+      "R2": 1.0,
+      "strain_range_microstrain": [
+        -315.2,
+        -0.0
+      ],
+      "temp_range_C": [
+        -78.2,
+        31.2
+      ],
+      "strain_share_of_dl_variance": 0.137,
+      "temp_share_of_dl_variance": 0.547
+    },
+    {
+      "seed": 2,
+      "MAE_pm": 1.076,
+      "RMSE_pm": 1.519,
+      "R2": 1.0,
+      "strain_range_microstrain": [
+        -178.5,
+        -0.1
+      ],
+      "temp_range_C": [
+        -81.1,
+        32.6
+      ],
+      "strain_share_of_dl_variance": 0.033,
+      "temp_share_of_dl_variance": 0.805
+    },
+    {
+      "seed": 3,
+      "MAE_pm": 1.084,
+      "RMSE_pm": 1.384,
+      "R2": 1.0,
+      "strain_range_microstrain": [
+        -710.4,
+        -0.0
+      ],
+      "temp_range_C": [
+        -41.3,
+        34.4
+      ],
+      "strain_share_of_dl_variance": 0.718,
+      "temp_share_of_dl_variance": 0.144
+    },
+    {
+      "seed": 4,
+      "MAE_pm": 0.707,
+      "RMSE_pm": 1.071,
+      "R2": 1.0,
+      "strain_range_microstrain": [
+        0.0,
+        88.3
+      ],
+      "temp_range_C": [
+        -98.1,
+        28.2
+      ],
+      "strain_share_of_dl_variance": 0.013,
+      "temp_share_of_dl_variance": 1.151
+    }
+  ],
+  "E6_single_factor_falsification": {
+    "strain-only (D1)": {
+      "dl_fit": {
+        "MAE_pm": 0.91,
+        "RMSE_pm": 1.219,
+        "R2": 1.0
+      },
+      "predicted_strain_range_microstrain": 209.1,
+      "predicted_temp_range_C": 62.83,
+      "expected": "temperature ~constant (ΔT≈0)"
+    },
+    "temperature-only (D2)": {
+      "dl_fit": {
+        "MAE_pm": 0.261,
+        "RMSE_pm": 0.501,
+        "R2": 0.9995
+      },
+      "predicted_strain_range_microstrain": 101.1,
+      "predicted_temp_range_C": 23.69,
+      "expected": "strain ~constant (Δε≈0)"
+    }
+  },
+  "E7_null_space_examples": {
+    "all_strain (T≡0)": {
+      "physics_residual_max_pm": 1.1368683772161603e-13,
+      "strain_range_microstrain": [
+        -769.9,
+        240.6
+      ],
+      "temp_range_C": [
+        0.0,
+        0.0
+      ]
+    },
+    "all_temperature (ε≡0)": {
+      "physics_residual_max_pm": 0.0,
+      "strain_range_microstrain": [
+        0.0,
+        0.0
+      ],
+      "temp_range_C": [
+        -92.39,
+        28.87
+      ]
+    },
+    "arbitrary T = 5·sin(2πt/600) °C": {
+      "physics_residual_max_pm": 2.2737367544323206e-13,
+      "strain_range_microstrain": [
+        -789.3,
+        200.9
+      ],
+      "temp_range_C": [
+        -5.0,
+        5.0
+      ]
+    }
+  },
+  "E8_notebook_ablation_phys_loss_value": 0.0,
+  "classical_baseline_cell7_units": {
+    "note": "regresses Wavelength (nm) on Time; coefficient is nm/s but labelled pm/s; MAE/RMSE are in nm but labelled pm",
+    "reported_MAE": "0.38 \"pm\"",
+    "actual_MAE_in_pm": 380.0
+  }
+}
